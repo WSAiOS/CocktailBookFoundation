@@ -43,6 +43,9 @@ When some of the cocktails are selected as favorites, the main screen should:
 - Always display the favorite cocktails at the beginning in the list (pinned) respecting the filter state (non-alcoholic favorite cocktails should still not be displayed in when the alcoholic cocktails filter is active). The favorite and non-favorite section of the list should still maintain relative alphabetical order
 - Each of the items in the list that are favorite, should have a different color for the cocktail name and display the favorite "filled heart icon" in the top right corner of the item UI, with the same color as the cocktail name
 
+- Provide unit tests
+Make sure the code is "testable" and provide unit tests for the business logic.
+
 ### Starter Project Setup & Cocktails API
 
 The first step is to clone the project (do not download zip) by performing this command in your terminal
@@ -121,8 +124,6 @@ _An important thing to note is that the API is very slow_, so keep that in mind 
 - Try and adhere to Apple's [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/) as much as possible
 
 ## ❓ Optional (Bonus) Tasks
-
-**Provide unit tests**. Make sure the code is "testable" and provide unit tests for the business logic.
 
 **Persist a list of favorite cocktails**. Setting cocktails as favorite is good while using the app but once the app is closed and launched again, all the favorite cocktails will be gone. Provide a way to persist the user choice so that when next launching the app, the choice of favorite programs is "remembered".
 
