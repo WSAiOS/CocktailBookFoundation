@@ -125,7 +125,7 @@ _An important thing to note is that the API is very slow_, so keep that in mind 
 
 ## ❓ Optional (Bonus) Tasks
 
-**Persist a list of favorite cocktails**. Setting cocktails as favorite is good while using the app but once the app is closed and launched again, all the favorite cocktails will be gone. Provide a way to persist the user choice so that when next launching the app, the choice of favorite programs is "remembered".
+**Persist a list of favorite cocktails**. Setting cocktails as favorite is good while using the app but once the app is closed and launched again, all the favorite cocktails will be gone. Provide a way to persist the user choice so that when next launching the app, the choice of favorite cocktails is "remembered".
 
 **Handle errors from the CocktailsAPI**. While working on the main tasks, the API will never fail. However there is an option to initialize the `FakeCocktailsAPI` such that it will fail for couple of times before succeeding.
 
